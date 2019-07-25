@@ -1,0 +1,93 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eric.easiermonashlibrary.Location">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/library_name"
+        android:layout_width="333dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Caulfield Library"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/campus"
+        android:layout_width="159dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:text="Caulfield Campus"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/library_name" />
+
+    <TextView
+        android:id="@+id/openingHour"
+        android:layout_width="174dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="50dp"
+        android:text="8AM-6PM"
+        app:layout_constraintBottom_toTopOf="@+id/contactNumber"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="50dp" />
+
+    <TextView
+        android:id="@+id/contactNumber"
+        android:layout_width="172dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="50dp"
+        android:text="03 9905 5054"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="50dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="96dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="20dp"
+        android:text="Opening hours:"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="130dp"
+        android:layout_height="29dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Contact Number:"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="20dp" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="394dp"
+        android:layout_height="394dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/openingHour"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/campus"
+        app:layout_constraintHorizontal_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

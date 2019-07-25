@@ -1,0 +1,117 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eric.easiermonashlibrary.Category">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/tv_art"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Art"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_biology"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Biology"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_it"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="IT"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_art" />
+
+    <TextView
+        android:id="@+id/tv_design"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Design"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_biology" />
+
+    <TextView
+        android:id="@+id/tv_finance"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Finance"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_it" />
+
+    <TextView
+        android:id="@+id/tv_medical"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#5C6BC0"
+        android:clickable="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp"
+        android:text="Medical"
+        android:textAlignment="inherit"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_design" />
+</android.support.constraint.ConstraintLayout>

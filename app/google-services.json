@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "659738757883",
+    "firebase_url": "https://monash-library.firebaseio.com",
+    "project_id": "monash-library",
+    "storage_bucket": "monash-library.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659738757883:android:88d8b52250439510",
+        "android_client_info": {
+          "package_name": "com.example.eric.easiermonashlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659738757883-fg1icivbnpfplva13vc9uv9sqmh2qgli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eric.easiermonashlibrary",
+            "certificate_hash": "079bc4183931e29315023937010df3c57d0db830"
+          }
+        },
+        {
+          "client_id": "659738757883-eb2en3dbpa6558eomkenlohl8t6b0bus.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAZYVj3u1E55jwhNLPPxi52b1EqaXXig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659738757883-eb2en3dbpa6558eomkenlohl8t6b0bus.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

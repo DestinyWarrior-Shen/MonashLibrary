@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/fragmentSearch"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/category_btn"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fragmentCategory"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/top_btn"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fragmentTop"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/favourite_btn"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fragmentFavourite"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+    <Button
+        android:id="@+id/profile_btn"
+        android:layout_width="76dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/fragmentProfile"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
